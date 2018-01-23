@@ -1,0 +1,68 @@
+ body{
+
+    background:rgb(5, 92, 105)	;
+ }
+ .weathertitle
+ {
+     font-size: 55px;
+     text-align: center;
+     color: white;
+     font-family: 'Roboto', sans-serif;
+     position: absolute;
+     top: 30px;
+    left: 630px;
+   padding: 4px 14px 10px 16px;
+    /* border:4px solid rgb(199, 86, 45); */
+    border-radius: 50px;
+
+
+      
+ }
+ .weathertitle::first-letter
+ {
+     font-size: 59px;
+     font-family: 'Roboto', sans-serif;
+ }
+
+ .searchcontainer
+ {
+     background-color: rgb(197, 70, 23);;
+     width: 800px;
+     height: 160px;
+     position: relative;
+     top: 400px;
+     left: 450px;
+     border-radius: 40px;
+ }
+
+ .searchcontainer>p
+ {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+   padding-top: 20px;
+    color: black;
+    text-align: justify;
+ }
+ input{
+    width: 601px;
+    height: 33px;
+    margin-left: 21px;
+    text-align: inherit;
+    border:none;
+    border-radius: 1px;
+
+ }
+
+ .searchbutton
+ {
+    width: 74px;
+    height: 33px;
+    border-radius: 1px;
+    border: none;
+    margin-left: 4px;
+    color: white;
+    background-color: rgb(26, 26, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+ }
